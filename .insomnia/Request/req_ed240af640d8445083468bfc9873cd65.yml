@@ -1,0 +1,31 @@
+_id: req_ed240af640d8445083468bfc9873cd65
+type: Request
+parentId: fld_e3b14ccd11da464a9d015713fe54b492
+modified: 1660417998218
+created: 1660414544030
+url: https://localhost:7261/api/v1/commands/2
+name: UpdateCommandById
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"howTo": "watch Project5",
+    	"platform": ".net5",
+    	"commandLine": "dotnet watch3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_15448b1a98de479994b7c07f89ca9605
+authentication: {}
+metaSortKey: -1660404539233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

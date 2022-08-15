@@ -1,0 +1,31 @@
+_id: req_c18899ee64f749359a4472b6810f717d
+type: Request
+parentId: fld_e3b14ccd11da464a9d015713fe54b492
+modified: 1660473546582
+created: 1660414503630
+url: https://localhost:7261/api/v1/commands
+name: CreateCommand
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"howTo": "watch Project3",
+    	"platform": ".net3",
+    	"commandLine": "dotnet watch3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d016a559def7459187cc886a90c73988
+authentication: {}
+metaSortKey: -1660404539220.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

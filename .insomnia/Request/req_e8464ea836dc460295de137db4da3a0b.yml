@@ -1,0 +1,21 @@
+_id: req_e8464ea836dc460295de137db4da3a0b
+type: Request
+parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
+modified: 1660504368990
+created: 1660504249177
+url: https://localhost:7261/api/v1/Resource/getAll
+name: Get All Resources Header
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660504249177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

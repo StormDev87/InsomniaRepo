@@ -1,0 +1,32 @@
+_id: req_7a52212c13314e3cb3bff7771e014d69
+type: Request
+parentId: fld_5247db6044554e87a7f39bcbe23c9b59
+modified: 1660504225502
+created: 1660473994349
+url: https://localhost:7261/api/v1/Resource
+name: Create ResourceType
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": 2,
+      "name": "Cliente/Fornitore",
+      "description": "Fornitore e Cliente",
+      "note": "Prova Nota2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a322ae930e9b49cb8da1cca90dc34504
+authentication: {}
+metaSortKey: -1660473994349
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: false
+settingFollowRedirects: global
