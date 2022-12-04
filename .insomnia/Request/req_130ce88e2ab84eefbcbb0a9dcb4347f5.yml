@@ -1,0 +1,32 @@
+_id: req_130ce88e2ab84eefbcbb0a9dcb4347f5
+type: Request
+parentId: fld_c90dc3a656b546e885132ac3111ceea5
+modified: 1664960877741
+created: 1664809509716
+url: "{{ _.baseUrl }}api/v1/Resource/CreateRsAddressType"
+name: Create ResourceAddressType
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "name": "Lg",
+      "descr": "Sede Legale",
+      "note": "",
+      "state": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664809509716
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

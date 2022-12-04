@@ -1,0 +1,39 @@
+_id: req_e47af16e47524e35a254abb76949afc4
+type: Request
+parentId: fld_1bb5e245e3894f5b8f0e3f07d6db16d7
+modified: 1669633623702
+created: 1669309515033
+url: "{{ _.baseUrl }}api/v1/Auth/UpdateUser"
+name: Update User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "globeandry2@gmail.com",
+    	"username": "globeandry@gmail.com",
+      "password": "Dylan66!",
+      "firstName": "Andrea",
+      "lastName": "Visca",
+      "phoneNumber": "",
+    	"rights":157,
+      "roles": [
+        "Administrator",
+    		"User"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7bf4728f266a4a7bbf90ce2416dbf3a2
+authentication: {}
+metaSortKey: -1660733653801
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

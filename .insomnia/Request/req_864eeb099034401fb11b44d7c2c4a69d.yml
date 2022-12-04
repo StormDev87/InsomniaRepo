@@ -1,10 +1,10 @@
-_id: req_b67e5a6e2c2442f6b638a3afea1eaba4
+_id: req_864eeb099034401fb11b44d7c2c4a69d
 type: Request
 parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1663850200896
-created: 1660552158452
-url: https://apitransport.vbup.it/api/v1/Invoice/getInvoice/11
-name: Get Invoice
+modified: 1663316343713
+created: 1661240027885
+url: ""
+name: Get All Invoices
 description: Possibilità di scegliere tipo di DTO in risposta con parametro in Header
 method: GET
 body: {}
@@ -19,9 +19,9 @@ headers:
     name: querySelect
     value: Super
     description: ""
-    disabled: false
+    disabled: true
 authentication: {}
-metaSortKey: -1661205818819
+metaSortKey: -1661827549438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

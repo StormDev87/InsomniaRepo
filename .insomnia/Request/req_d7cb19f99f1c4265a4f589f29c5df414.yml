@@ -1,17 +1,17 @@
-_id: req_e8464ea836dc460295de137db4da3a0b
+_id: req_d7cb19f99f1c4265a4f589f29c5df414
 type: Request
-parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1664963890217
-created: 1660504249177
-url: "{{ _.baseUrl }}api/v1/Resource/getAll"
-name: Get All Resources Header
+parentId: fld_134a806617b243d59a586e74cb52490b
+modified: 1669572912407
+created: 1669572912407
+url: https://localhost:7261/api/v1/Auth/GetAllUsers
+name: Get All Users
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660504249177
+metaSortKey: -1660709006127
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

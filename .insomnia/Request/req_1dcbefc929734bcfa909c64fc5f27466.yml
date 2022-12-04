@@ -1,0 +1,37 @@
+_id: req_1dcbefc929734bcfa909c64fc5f27466
+type: Request
+parentId: fld_134a806617b243d59a586e74cb52490b
+modified: 1669572908194
+created: 1660740331194
+url: https://localhost:7261/api/v1/Auth/UpdateUserPassword
+name: Update Password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "viscateo3@gmail.com",
+      "password": "Lolloposl1$"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_11227ccef9944276a915228246f0bb9c
+  - id: pair_96626fb7100945d99d061b6ae3904849
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1660733653776
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

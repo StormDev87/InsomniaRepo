@@ -1,0 +1,30 @@
+_id: req_b7c7c274ffd246cc87696210672df57f
+type: Request
+parentId: fld_7b1c3795d2f44c8c89bcb4ab005db979
+modified: 1663863077883
+created: 1663316857098
+url: https://apitransport.vbup.it/api/v1/Invoice/CreateTaxNumber
+name: Create TaxNumber
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-2
+      {
+        "value": 23,
+        "descr": "Iva al 23%"
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e850b66c8b8b4bb3994acff1b22c862a
+authentication: {}
+metaSortKey: -1661782506703.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

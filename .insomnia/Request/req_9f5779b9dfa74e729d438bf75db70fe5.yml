@@ -1,0 +1,32 @@
+_id: req_9f5779b9dfa74e729d438bf75db70fe5
+type: Request
+parentId: fld_114edcd861dd49098eefd83f90580960
+modified: 1663862063514
+created: 1663071033507
+url: https://apitransport.vbup.it/api/v1/Invoice/listCEconomico
+name: Get List EcField
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Name": "Nome2",
+      "Descr": "Descr",
+    	"Note": "note"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImZjNTNjYmUwLTYzZjEtNGU2ZS04ZTM3LWY4NTgxOTc4MjU5YiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJjaWNjaW8yQGNpY2Npby5pdCIsImVtYWlsIjoiY2ljY2lvMkBjaWNjaW8uaXQiLCJzdWIiOiJjaWNjaW8yQGNpY2Npby5pdCIsImp0aSI6IjRhZWM0YzM3LTQwNGYtNDY3NC1iNDcwLWVlNjA3ZDNlODViZiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6WyJVc2VyIiwiQWRtaW5pc3RyYXRvciJdLCJleHAiOjE2NjMwNzExNjcsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyNjEifQ.JF9-bScOpVw6yhUpnpMPMqgKvS9QL8YbVrnK83KISZc
+    id: pair_259d5f66425c4e87ac1493da043f9cac
+authentication: {}
+metaSortKey: -1660558389929.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_2b9cf3da384f48cd8d4350eec943b022
+type: Request
+parentId: fld_13b576e638d443b78e1722c96b5a5cf1
+modified: 1670152225192
+created: 1669309515039
+url: "{{ _.baseUrl }}api/v1/Auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "globeandry@gmail.com",
+    	"username": "andrea",
+      "password": "Dylan66!",
+      "firstName": "Andrea",
+      "lastName": "Visca",
+      "phoneNumber": "",
+    	"rights":157,
+      "roles": [
+        "Administrator",
+    		"User"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7bf4728f266a4a7bbf90ce2416dbf3a2
+authentication: {}
+metaSortKey: -1660592579051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

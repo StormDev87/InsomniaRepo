@@ -1,0 +1,31 @@
+_id: req_6d62aca9db584590add91c74d8447d91
+type: Request
+parentId: fld_251167d078ac40b1bca96884428307b1
+modified: 1663850190038
+created: 1663315991233
+url: https://apitransport.vbup.it/api/v1/Invoice/CreatePayType
+name: Create PayType
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Bonifico",
+      "descr": "Bonifico Bancario",
+      "note": "NoteTest"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f2105891133f479b953c5e9906d6e7e7
+authentication: {}
+metaSortKey: -1662199255910.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

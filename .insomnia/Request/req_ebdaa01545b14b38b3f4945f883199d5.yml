@@ -1,0 +1,39 @@
+_id: req_ebdaa01545b14b38b3f4945f883199d5
+type: Request
+parentId: fld_050e361efa644c409280d06fd431ef0e
+modified: 1669399895472
+created: 1660592579051
+url: "{{ _.baseUrl }}api/v1/Auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "viscateo3@gmail.com",
+    	"username": "Matteo",
+      "password": "Teo87!",
+      "firstName": "Matteo",
+      "lastName": "Visca",
+      "phoneNumber": "",
+    	"rights":157,
+      "roles": [
+        "Administrator",
+    		"User"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7bf4728f266a4a7bbf90ce2416dbf3a2
+authentication: {}
+metaSortKey: -1660592579051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

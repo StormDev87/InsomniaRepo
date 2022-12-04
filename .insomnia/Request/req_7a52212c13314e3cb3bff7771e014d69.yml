@@ -1,20 +1,21 @@
 _id: req_7a52212c13314e3cb3bff7771e014d69
 type: Request
 parentId: fld_5247db6044554e87a7f39bcbe23c9b59
-modified: 1660504225502
+modified: 1665992819919
 created: 1660473994349
-url: https://localhost:7261/api/v1/Resource
-name: Create ResourceType
+url: "{{ _.baseUrl }}api/v1/Resource/CreateRsType"
+name: Create ResourceType Cliente
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-      "type": 2,
-      "name": "Cliente/Fornitore",
-      "description": "Fornitore e Cliente",
-      "note": "Prova Nota2"
+        "id": 0,
+        "type": 2,
+        "name": "Cliente/Fornitore",
+        "description": "Risorsa Cliente/Fornitore",
+        "note": "Questa risorsa è un cliente/fornitore."
     }
 parameters: []
 headers:
@@ -22,7 +23,7 @@ headers:
     value: application/json
     id: pair_a322ae930e9b49cb8da1cca90dc34504
 authentication: {}
-metaSortKey: -1660473994349
+metaSortKey: -1663060990652
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

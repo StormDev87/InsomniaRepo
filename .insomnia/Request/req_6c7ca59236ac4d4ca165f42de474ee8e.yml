@@ -1,17 +1,17 @@
-_id: req_e8464ea836dc460295de137db4da3a0b
+_id: req_6c7ca59236ac4d4ca165f42de474ee8e
 type: Request
 parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1664963890217
-created: 1660504249177
-url: "{{ _.baseUrl }}api/v1/Resource/getAll"
-name: Get All Resources Header
+modified: 1669659094452
+created: 1663061263613
+url: https://10.0.0.20:7186/api/v1/Report/DeleteReport/64
+name: Delete Resources by Id
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660504249177
+metaSortKey: -1660498433902.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

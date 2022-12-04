@@ -1,0 +1,71 @@
+_id: req_7c71d1312b9f42b68c872308868a282e
+type: Request
+parentId: fld_34e6d6664fb04646b538c29e661b5cf4
+modified: 1664793801501
+created: 1663405321823
+url: https://apitransport.vbup.it/api/v1/Invoice/CreateInvoice
+name: Create Invoice 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"dateFatt": "2022-09-17T00:00:00Z",
+    	"dateReg": "2022-08-15T15:24:25.827Z",
+    	"descr": "wqeq",
+    	"economyFieldId": 2,
+    	"id": 0,
+    	"invoiceDeadlines": [
+    		{
+    			"amount": "522.50",
+    			"date": "",
+    			"datePay": "2022-09-23T00:00:00Z",
+    			"id": 0,
+    			"invoiceHederId": 0,
+    			"payTypeId": 1,
+    			"state": 0,
+    			"status": "init"
+    		}
+    	],
+    	"invoiceRows": [
+    		{
+    			"codProd": "1",
+    			"descrProd": "1",
+    			"discount": 5,
+    			"icon": "",
+    			"id": 0,
+    			"invoiceHeaderId": 0,
+    			"qnt": 1,
+    			"refCC": 5,
+    			"taxable": 800,
+    			"taxed": 822.5,
+    			"taxNumberId": 1,
+    			"taxRate": 0,
+    			"typeCC": "Vehicles",
+    			"unMis": "Unità"
+    		}
+    	],
+    	"numInvoice": "121",
+    	"progReg": 0,
+    	"resourceHeaderId": 4,
+    	"taxable": "875.00",
+    	"total": "822.50",
+    	"type": 1,
+    	"vat": "87.50",
+    	"year": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_259d5f66425c4e87ac1493da043f9cac
+authentication: {}
+metaSortKey: -1660814303655.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

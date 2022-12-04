@@ -1,0 +1,36 @@
+_id: req_5a0df3ccff5d49d885cd4cc2aeaa3695
+type: Request
+parentId: fld_c90dc3a656b546e885132ac3111ceea5
+modified: 1664963873131
+created: 1664960730426
+url: "{{ _.baseUrl }}api/v1/Resource/CreateRsAddress"
+name: Create ResourceAddress
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "resourceHeaderId": 1,
+      "resourceAddressTypeId": 1,
+      "city": "Trofarello",
+      "address": "Via Sabbioni 24",
+      "zip": "10028",
+      "phone": "3938879457",
+      "mail": "amministrazione@vbanet.eu",
+      "state": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664287095301.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

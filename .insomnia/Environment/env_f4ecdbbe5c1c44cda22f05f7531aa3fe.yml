@@ -1,0 +1,14 @@
+_id: env_f4ecdbbe5c1c44cda22f05f7531aa3fe
+type: Environment
+parentId: env_628592afa30e5e1d9f823b0010ec6f58cc19057e
+modified: 1669132696371
+created: 1664793931934
+name: Online
+data:
+  baseUrl: https://apitransport.vbup.it/
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1664793931934

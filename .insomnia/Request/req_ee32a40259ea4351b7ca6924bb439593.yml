@@ -1,10 +1,10 @@
 _id: req_ee32a40259ea4351b7ca6924bb439593
 type: Request
 parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1660577283015
+modified: 1664550049549
 created: 1660577084362
-url: https://localhost:7261/api/v1/Invoice/CreateInvoice
-name: New Request
+url: https://apitransport.vbup.it/api/v1/Invoice/CreateInvoice
+name: Create Invoice
 description: ""
 method: POST
 body:
@@ -13,60 +13,39 @@ body:
     {
       "resourceHeaderId": 1,
       "economyFieldId": 1,
-      "progReg": 55,
-      "year": 2020,
-      "type": 1,
-      "dateReg": "2022-08-15T15:24:25.827Z",
-      "dateFatt": "2022-08-15T15:24:25.827Z",
-      "numInvoice": "prova",
-      "descr": "cicic",
-      "taxable": "superacic",
-      "vat": "vat",
-      "total": "totale",
+      "progReg": 0,
+      "year": 0,
+      "type": 0,
+      "dateReg": "2022-09-16T11:49:57.277Z",
+      "dateFatt": "2022-09-16T11:49:57.277Z",
+      "numInvoice": "string",
+      "descr": "string",
+      "taxable": "string",
+      "vat": "string",
+      "total": "string",
       "invoiceDeadlines": [
         {
           "invoiceHeaderId": 0,
-          "payTypeId": 1,
-          "amount": "amount",
-          "date": "2022-08-15T15:24:25.827Z",
-          "state": 1,
-          "datePay": "2022-08-15T15:24:25.827Z"
-        },
-        {
-          "invoiceHeaderId": 0,
-          "payTypeId": 2,
-          "amount": "amount3",
-          "date": "2022-08-15T15:24:25.827Z",
-          "state": 1,
-          "datePay": "2022-08-15T15:24:25.827Z"
+          "payTypeId": 0,
+          "amount": 0,
+          "date": "2022-09-16T11:49:57.277Z",
+          "state": 0,
+          "datePay": "2022-09-16T11:49:57.277Z"
         }
       ],
       "invoiceRows": [
         {
           "invoiceHeaderId": 0,
-          "refCC": 1,
-          "typeCC": "typeCC1",
-          "taxRate": 1,
-          "codProd": "CodProd1",
-          "descrProd": "DescrProd1",
-          "qnt": 1,
-          "unMis": "unit",
-          "discount": 1,
-          "taxable": 2,
-          "taxed": 3
-        },
-        {
-          "invoiceHeaderId": 0,
-          "refCC": 2,
-          "typeCC": "typeCC1",
-          "taxRate": 3,
-          "codProd": "CodProd1",
-          "descrProd": "DescrProd1",
-          "qnt": 1,
-          "unMis": "unit",
-          "discount": 1,
-          "taxable": 2,
-          "taxed": 3
+          "refCC": 0,
+          "typeCC": "string",
+          "taxRate": 0,
+          "codProd": "string",
+          "descrProd": "string",
+          "qnt": 0,
+          "unMis": "string",
+          "discount": 0,
+          "taxable": 0,
+          "taxed": 0
         }
       ]
     }
@@ -76,7 +55,7 @@ headers:
     value: application/json
     id: pair_259d5f66425c4e87ac1493da043f9cac
 authentication: {}
-metaSortKey: -1660577084362
+metaSortKey: -1660894953509.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

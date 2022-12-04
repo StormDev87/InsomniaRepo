@@ -1,10 +1,10 @@
-_id: req_b67e5a6e2c2442f6b638a3afea1eaba4
+_id: req_ec73e0f858e0440da726653d463ecfaf
 type: Request
-parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1663850200896
-created: 1660552158452
-url: https://apitransport.vbup.it/api/v1/Invoice/getInvoice/11
-name: Get Invoice
+parentId: fld_251167d078ac40b1bca96884428307b1
+modified: 1663850187769
+created: 1663315403505
+url: https://apitransport.vbup.it/api/v1/Invoice/GetPayTypeById/1
+name: Get TypePay by Id
 description: Possibilità di scegliere tipo di DTO in risposta con parametro in Header
 method: GET
 body: {}
@@ -19,9 +19,9 @@ headers:
     name: querySelect
     value: Super
     description: ""
-    disabled: false
+    disabled: true
 authentication: {}
-metaSortKey: -1661205818819
+metaSortKey: -1662199255935.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

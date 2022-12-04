@@ -1,0 +1,38 @@
+_id: req_cfd0375ec5034de886f1068aa892b853
+type: Request
+parentId: fld_134a806617b243d59a586e74cb52490b
+modified: 1662588351007
+created: 1660736350310
+url: https://localhost:7261/api/v1/Auth/UpdateUser
+name: Update User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "viscateo3@gmail.com",
+      "password": "Lollopol1$",
+      "firstName": "matteo",
+      "lastName": "stocazzo",
+      "phoneNumber": "3938879457",
+    	"rights":157,
+      "roles": [
+        "Administrator",
+    		"User"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7bf4728f266a4a7bbf90ce2416dbf3a2
+authentication: {}
+metaSortKey: -1660733653801
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

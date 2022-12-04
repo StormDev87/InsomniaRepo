@@ -1,9 +1,9 @@
 _id: req_532cf079deea43299634e5c794aeb788
 type: Request
 parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1660495677671
+modified: 1664963987381
 created: 1660495372067
-url: https://localhost:7261/api/v1/Resource/Create
+url: https://apitransport.vbup.it/api/v1/Resource/Create
 name: Create ResourceHeader Element
 description: ""
 method: POST
@@ -14,13 +14,12 @@ body:
       "type": 1,
     	"resourceType": 
     	{
-    		"id": 1,
-    		"type": 0,
-    		"name": "Fornitore",
-    		"description": "Fornitore di servizi",
-    		"note": "Prova Note"
+    		"type": 1,
+    		"name": "FornitoreProva",
+    		"description": "Fornitore di serviziProva",
+    		"note": "Prova NoteProva"
     	},
-      "socRes": "Vba snc",
+      "socRes": "Vbadsa snc",
       "city": "Trofarello",
       "address": "Via Sabbioni 24",
       "zip": "10028",

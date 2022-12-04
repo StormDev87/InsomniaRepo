@@ -1,0 +1,38 @@
+_id: req_a441f1c68b5b45c4bb71860f8eb543f2
+type: Request
+parentId: fld_5e9955b0687c40dc8d0112a3c9036ade
+modified: 1669633684223
+created: 1669309639645
+url: "{{ _.baseUrl }}api/v1/Report/CreateReport"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "operator": "teo",
+      "vehicleId": "veicoloTest",
+      "note": "nessunaNota"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8b88dd28e9e44fcab330815db149219a
+  - id: pair_81cd8c25147d4e8aa6377e474263c36f
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjgzN2ZlZjI5LWI2YTMtNDcxZi05Y2FmLTk4OGYzMjM2ODgyOCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ2aXNjYXRlb0BnbWFpbC5jb20iLCJlbWFpbCI6InZpc2NhdGVvQGdtYWlsLmNvbSIsInN1YiI6InZpc2NhdGVvQGdtYWlsLmNvbSIsImp0aSI6ImQ0NGU2ZmZiLWVhN2EtNGI1Zi04ZDVkLWJlYjE2MGM4NjZiOSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6WyJBZG1pbmlzdHJhdG9yIiwiVXNlciJdLCJleHAiOjE2NjU5OTMxNDEsImlzcyI6IkFwaV9UcmFuc3BvcnQifQ.p6pjtin-Uhajw-kw_UrUT1hMvF1lboNRXgaW0KBGkK0
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+metaSortKey: -1669309639645
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

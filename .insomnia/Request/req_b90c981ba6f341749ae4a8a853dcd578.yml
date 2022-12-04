@@ -1,9 +1,9 @@
 _id: req_b90c981ba6f341749ae4a8a853dcd578
 type: Request
 parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1660495676350
+modified: 1664960860824
 created: 1660495391561
-url: https://localhost:7261/api/v1/Resource/Create
+url: https://apitransport.vbup.it/api/v1/Resource/Create
 name: Create ResourceHeader Nothing
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-      "type": 1,
+      "type": 2,
       "socRes": "Vba snc",
       "city": "Trofarello",
       "address": "Via Sabbioni 24",

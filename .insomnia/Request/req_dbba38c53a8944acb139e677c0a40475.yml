@@ -1,0 +1,31 @@
+_id: req_dbba38c53a8944acb139e677c0a40475
+type: Request
+parentId: fld_114edcd861dd49098eefd83f90580960
+modified: 1663851783323
+created: 1663070814909
+url: https://apitransport.vbup.it/api/v1/Invoice/CreateEconomyField
+name: Create EcField
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Name": "Ufficio",
+      "Descr": "Ufficio",
+    	"Note": "note"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_259d5f66425c4e87ac1493da043f9cac
+authentication: {}
+metaSortKey: -1660564621407
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

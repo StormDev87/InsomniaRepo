@@ -1,10 +1,10 @@
-_id: req_b67e5a6e2c2442f6b638a3afea1eaba4
+_id: req_56033806c909408589f4fcb665e3b7e9
 type: Request
-parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1663850200896
-created: 1660552158452
-url: https://apitransport.vbup.it/api/v1/Invoice/getInvoice/11
-name: Get Invoice
+parentId: fld_7b1c3795d2f44c8c89bcb4ab005db979
+modified: 1663705116504
+created: 1663316350369
+url: https://localhost:8001/api/v1/Invoice/listTaxNumbers
+name: List TaxNumbers
 description: Possibilità di scegliere tipo di DTO in risposta con parametro in Header
 method: GET
 body: {}
@@ -19,9 +19,9 @@ headers:
     name: querySelect
     value: Super
     description: ""
-    disabled: false
+    disabled: true
 authentication: {}
-metaSortKey: -1661205818819
+metaSortKey: -1661797520981.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

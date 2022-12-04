@@ -1,0 +1,26 @@
+_id: req_eb33e45bc2bd4d0f82d896b1fd75cd31
+type: Request
+parentId: fld_050e361efa644c409280d06fd431ef0e
+modified: 1663060667359
+created: 1660634979190
+url: https://localhost:7261/api/v1/Auth/refreshtoken
+name: Refresh Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cc982c1782d04038b575231922cbe5fd
+authentication: {}
+metaSortKey: -1660634979190
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

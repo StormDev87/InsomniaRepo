@@ -1,0 +1,30 @@
+_id: req_b0038c8c50214069b39f348cbd3ea60d
+type: Request
+parentId: fld_134a806617b243d59a586e74cb52490b
+modified: 1662588352715
+created: 1661503145240
+url: https://localhost:7261/api/v1/Auth/AddUserToRole
+name: Associate user and Role
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "ciccio2@ciccio.it",
+      "role": "Administrator"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7bf4728f266a4a7bbf90ce2416dbf3a2
+authentication: {}
+metaSortKey: -1660733653788.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

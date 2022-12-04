@@ -1,0 +1,136 @@
+_id: req_4fd487b4ca094a808fb850a52076447b
+type: Request
+parentId: fld_34e6d6664fb04646b538c29e661b5cf4
+modified: 1663850214381
+created: 1660584088200
+url: https://apitransport.vbup.it/api/v1/Invoice/UpdateInvoice/3
+name: Update Invoice
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "resourceHeaderId": 1,
+      "economyFieldId": 1,
+      "progReg": 55,
+      "year": 2020,
+      "type": 1,
+      "dateReg": "2022-08-15T15:24:25.827Z",
+      "dateFatt": "2022-08-15T15:24:25.827Z",
+      "numInvoice": "prova3",
+      "descr": "cicic3",
+      "taxable": "superacic3",
+      "vat": "vat3",
+      "total": "totale3",
+      "invoiceDeadlines": [
+        {
+          "invoiceHeaderId": 0,
+          "payTypeId": 1,
+          "amount": "amount3",
+          "date": "2022-08-15T15:24:25.827Z",
+          "state": 1,
+          "datePay": "2022-08-15T15:24:25.827Z"
+        },
+        {
+          "invoiceHeaderId": 0,
+          "payTypeId": 2,
+          "amount": "amount4",
+          "date": "2022-08-15T15:24:25.827Z",
+          "state": 1,
+          "datePay": "2022-08-15T15:24:25.827Z"
+        }
+      ],
+      "invoiceRows": [
+        {
+          "invoiceHeaderId": 0,
+          "refCC": 1,
+          "typeCC": "typeCC3",
+          "taxRate": 1,
+          "codProd": "CodProd1",
+          "descrProd": "DescrProd1",
+          "qnt": 1,
+          "unMis": "unit",
+          "discount": 1,
+          "taxable": 2,
+          "taxed": 3
+        },
+        {
+          "invoiceHeaderId": 0,
+          "refCC": 2,
+          "typeCC": "typeCC3b",
+          "taxRate": 3,
+          "codProd": "CodProd1",
+          "descrProd": "DescrProd1",
+          "qnt": 1,
+          "unMis": "unit",
+          "discount": 1,
+          "taxable": 2,
+          "taxed": 3
+        }
+      ]
+    }
+
+
+    {"id":43,
+     "resourceHeaderId":13,
+     "resourceHeader":
+     {"id":13,
+    	"resourceType":null,
+    	"type":1,
+    	"socRes":"Vba snc",
+    	"city":"Trofarello",
+    	"address":"Via Sabbioni 24",
+    	"zip":"10028",
+    	"phone":"+39 938879457",
+    "mail":"viscateo@gmail.com",
+    	"piva":"11118750014",
+    	"iban":"ibtest",
+    	"state":1
+     },
+     "economyFieldId":2,
+     "economyField":{"id":2,
+    								 "name":"name2",
+    								 "descr":"descr",
+    								 "note":"note2"
+    								},
+     "progReg":0,
+     "year":0,
+     "type":0,
+     "dateReg":null,
+     "dateFatt":"2022-09-30T00:00:00",
+     "numInvoice":"444idProvadsd",
+     "descr":"",
+     "taxable":"375.00",
+     "vat":"3.75",
+     "total":"378.75",
+     "invoiceDeadlines":[],
+     "invoiceRows":[{
+    	 "id":46,
+    	 "invoiceHeaderId":43,
+    	 "refCC":5,
+    	 "typeCC":"Vehicles",
+    	 "taxRate":1,
+    	 "codProd":"1",
+    	 "descrProd":"prodotto prova 4",
+    	 "qnt":1,
+    	 "unMis":"Unità",
+    	 "discount":25,
+    	 "taxable":500,
+    	 "taxed":378.75
+     }]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c34997f0267346f580d5761f138f107a
+authentication: {}
+metaSortKey: -1660584088200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,17 +1,17 @@
-_id: req_e8464ea836dc460295de137db4da3a0b
+_id: req_ae12ff6724bd4c82858dfa9c82581cf7
 type: Request
-parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1664963890217
-created: 1660504249177
-url: "{{ _.baseUrl }}api/v1/Resource/getAll"
-name: Get All Resources Header
+parentId: fld_70afde39080340ba875bc1dd8b4f3f34
+modified: 1663767523293
+created: 1663764680887
+url: https://apitransport.vbup.it/api/v1/Generic/HelloWorld
+name: New Request
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660504249177
+metaSortKey: -1663764680887
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
