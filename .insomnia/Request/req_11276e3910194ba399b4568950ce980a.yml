@@ -1,0 +1,34 @@
+_id: req_11276e3910194ba399b4568950ce980a
+type: Request
+parentId: fld_717a79047f0849d98e0b7fec5a2bb387
+modified: 1670698915058
+created: 1670698074305
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceContact"
+name: Update Resource Contact
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 2,
+      "resourceHeaderId": 2,
+      "name": "string",
+      "surname": "stringsedds",
+      "mail": "string",
+      "phone": "string",
+      "state": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670681241086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

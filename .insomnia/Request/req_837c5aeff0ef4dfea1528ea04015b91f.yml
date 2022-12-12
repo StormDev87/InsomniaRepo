@@ -1,0 +1,30 @@
+_id: req_837c5aeff0ef4dfea1528ea04015b91f
+type: Request
+parentId: fld_dd8e9ca2f58b4bac9ea4343d249041de
+modified: 1670670298824
+created: 1670669935703
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceCategory"
+name: Create Iban Stato Disattivo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "resourceHeaderId": 1,
+      "iban": "IT 60 X 05428 11101 000000123456",
+      "state": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668089537
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

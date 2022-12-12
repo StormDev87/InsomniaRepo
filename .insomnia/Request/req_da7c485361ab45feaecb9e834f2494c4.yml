@@ -1,0 +1,21 @@
+_id: req_da7c485361ab45feaecb9e834f2494c4
+type: Request
+parentId: fld_f9b78c28655240e1aa0d77765ca4188c
+modified: 1670698944103
+created: 1670698074309
+url: "{{ _.baseUrl }}/api/v1/Resource/DeleteResourceContact/4"
+name: Delete resource Contact
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670681538262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

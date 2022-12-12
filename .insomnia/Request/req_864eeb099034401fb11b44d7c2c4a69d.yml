@@ -1,9 +1,9 @@
 _id: req_864eeb099034401fb11b44d7c2c4a69d
 type: Request
 parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1663316343713
+modified: 1670592519921
 created: 1661240027885
-url: ""
+url: "{{ _.baseUrl }}/api/v1/Invoice/GetAllInvoiceHeader"
 name: Get All Invoices
 description: Possibilità di scegliere tipo di DTO in risposta con parametro in Header
 method: GET

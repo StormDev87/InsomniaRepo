@@ -1,15 +1,19 @@
 _id: req_eb33e45bc2bd4d0f82d896b1fd75cd31
 type: Request
 parentId: fld_050e361efa644c409280d06fd431ef0e
-modified: 1663060667359
+modified: 1670682431513
 created: 1660634979190
-url: https://localhost:7261/api/v1/Auth/refreshtoken
+url: "{{ _.baseUrl }}/api/v1/Auth/refreshtoken"
 name: Refresh Token
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: >-
+    {
+    	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImQ3ZmE0ZTNkLTUxZTAtNDg3OC1iOGY4LTA0MWNhYWU1OTFiMSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ2aXNjYXRlb0BnbWFpbC5jb20iLCJlbWFpbCI6InZpc2NhdGVvQGdtYWlsLmNvbSIsInN1YiI6InZpc2NhdGVvQGdtYWlsLmNvbSIsImp0aSI6ImZlMzJlNmRhLWQyMTYtNGNkNi1iZGQ2LTgwNGE5YTk3Y2Q0YyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6WyJVc2VyIiwiQWRtaW5pc3RyYXRvciJdLCJleHAiOjE2NzA1OTc3NzMsImlzcyI6IkFwaV9UcmFuc3BvcnQifQ.qLtcc6a2Yn38uIvNNE3eZJ-1Ayiq0SOQhjAtsGACeSA",
+    	"refreshToken": "CfDJ8LVwR1Vw87NJonWwvVUcfT0dTQ7J0DVRMz1jfulsH8bRK1sK62ZuzMyIq5GGYTbkNJaS6RBb6waps+5Dfw2KYzvdhtE0nghwB0ad9gW5qxkMOI5+QvgHkEOHFRPkoHxa7In96qNvC3DbX603XtfPJVAe/EGiNPqSJdgLmYwf1mkn0rxOJQfCy3taRTyNbnB4t3Z+ovHhdeQqKyE3dDShCcaWG+iBhvHpYrI+eNd9rcMH"
+    }
 parameters: []
 headers:
   - name: Content-Type

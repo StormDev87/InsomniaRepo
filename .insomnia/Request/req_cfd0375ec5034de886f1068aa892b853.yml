@@ -1,9 +1,9 @@
 _id: req_cfd0375ec5034de886f1068aa892b853
 type: Request
 parentId: fld_134a806617b243d59a586e74cb52490b
-modified: 1662588351007
+modified: 1670682459241
 created: 1660736350310
-url: https://localhost:7261/api/v1/Auth/UpdateUser
+url: "{{ _.baseUrl }}/api/v1/Auth/UpdateUser"
 name: Update User
 description: ""
 method: POST
@@ -11,8 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      "email": "viscateo3@gmail.com",
-      "password": "Lollopol1$",
+    	"userName": "viscateo@gmail.com", 
+      "email": "viscateo@gmail.com",
+
       "firstName": "matteo",
       "lastName": "stocazzo",
       "phoneNumber": "3938879457",

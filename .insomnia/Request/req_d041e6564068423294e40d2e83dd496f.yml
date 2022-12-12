@@ -1,9 +1,9 @@
 _id: req_d041e6564068423294e40d2e83dd496f
 type: Request
 parentId: fld_134a806617b243d59a586e74cb52490b
-modified: 1660733701869
+modified: 1670682446338
 created: 1660733653751
-url: https://localhost:7261/api/v1/Auth/GetAllUsers
+url: "{{ _.baseUrl }}/api/v1/Auth/GetAllUsers"
 name: Get All Users
 description: ""
 method: GET

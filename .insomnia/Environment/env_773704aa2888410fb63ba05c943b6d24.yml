@@ -1,11 +1,11 @@
 _id: env_773704aa2888410fb63ba05c943b6d24
 type: Environment
 parentId: env_628592afa30e5e1d9f823b0010ec6f58cc19057e
-modified: 1669823205192
+modified: 1670236792130
 created: 1664794297549
 name: 0547_iveco
 data:
-  baseUrl: https://localhost:7186/
+  baseUrl: http://10.0.0.82:5000/
 dataPropertyOrder:
   "&":
     - baseUrl

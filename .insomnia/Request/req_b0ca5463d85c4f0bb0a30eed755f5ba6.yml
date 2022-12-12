@@ -1,0 +1,21 @@
+_id: req_b0ca5463d85c4f0bb0a30eed755f5ba6
+type: Request
+parentId: fld_2bb7a3ebe6c44c49aca4b1ada13cbe66
+modified: 1670668367016
+created: 1670668333297
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceTypes"
+name: Get All Resource Types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670668333297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

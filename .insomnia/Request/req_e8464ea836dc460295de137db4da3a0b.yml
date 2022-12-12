@@ -1,9 +1,9 @@
 _id: req_e8464ea836dc460295de137db4da3a0b
 type: Request
-parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1664963890217
+parentId: fld_ecfcf4a0b1ae43f4b7470a59b2d54842
+modified: 1670675028754
 created: 1660504249177
-url: "{{ _.baseUrl }}api/v1/Resource/getAll"
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResources"
 name: Get All Resources Header
 description: ""
 method: GET

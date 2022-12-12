@@ -1,0 +1,30 @@
+_id: req_23c92cc188ff4ed89552bf0fd26701a2
+type: Request
+parentId: fld_29ff0aacd62f48a7928bc7bae0ea5738
+modified: 1670682545355
+created: 1670669171215
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceCategory"
+name: Create Categoria 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Categoria2",
+      "description": "la seconda categoria",
+      "note": "Continuo a non ricordare...."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668089537
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

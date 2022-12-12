@@ -1,9 +1,9 @@
 _id: req_b7c7c274ffd246cc87696210672df57f
 type: Request
 parentId: fld_7b1c3795d2f44c8c89bcb4ab005db979
-modified: 1663863077883
+modified: 1670698060197
 created: 1663316857098
-url: https://apitransport.vbup.it/api/v1/Invoice/CreateTaxNumber
+url: "{{ _.baseUrl }}api/v1/Invoice/CreateTaxNumber"
 name: Create TaxNumber
 description: ""
 method: POST

@@ -1,0 +1,21 @@
+_id: req_b0358b9056f74279997a16bdc722ff93
+type: Request
+parentId: fld_8a56736c41ac432f814afc5df191e24b
+modified: 1670682057598
+created: 1670668964672
+url: "{{ _.baseUrl }}/api/v1/Resource/DeleteResourceCategory/2"
+name: Delete Resource Category
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670668833493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

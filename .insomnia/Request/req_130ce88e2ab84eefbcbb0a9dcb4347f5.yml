@@ -1,9 +1,9 @@
 _id: req_130ce88e2ab84eefbcbb0a9dcb4347f5
 type: Request
-parentId: fld_c90dc3a656b546e885132ac3111ceea5
-modified: 1664960877741
+parentId: fld_0b3cc03f741843e7a3f4f789f7eac807
+modified: 1670697003727
 created: 1664809509716
-url: "{{ _.baseUrl }}api/v1/Resource/CreateRsAddressType"
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceAddressType"
 name: Create ResourceAddressType
 description: ""
 method: POST
@@ -12,8 +12,8 @@ body:
   text: |-
     {
       "id": 0,
-      "name": "Lg",
-      "descr": "Sede Legale",
+      "name": "Lgdfsds",
+      "descr": "Seddsdse Legale",
       "note": "",
       "state": 1
     }

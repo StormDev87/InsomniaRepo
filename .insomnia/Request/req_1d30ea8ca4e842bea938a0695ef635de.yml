@@ -1,0 +1,34 @@
+_id: req_1d30ea8ca4e842bea938a0695ef635de
+type: Request
+parentId: fld_4806703b9a0e4f1a9c7502a7069af666
+modified: 1670698259166
+created: 1670698074295
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceContact"
+name: Create ResourceContact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "resourceHeaderId": 2,
+      "name": "string",
+      "surname": "string",
+      "mail": "string",
+      "phone": "string",
+      "state": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664809509716
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

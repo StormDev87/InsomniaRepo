@@ -1,0 +1,28 @@
+_id: req_f47d3e6e2ae5415cb6d631e989438438
+type: Request
+parentId: fld_1741bd6bdc184d108b529dfa0c973f4f
+modified: 1670698831916
+created: 1670698074303
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceContactsByHeader"
+name: Get Resource Contacts BY Header
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 2
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670678474084.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

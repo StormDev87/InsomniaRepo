@@ -1,17 +1,17 @@
 _id: req_ae12ff6724bd4c82858dfa9c82581cf7
 type: Request
-parentId: fld_70afde39080340ba875bc1dd8b4f3f34
-modified: 1663767523293
+parentId: fld_134a806617b243d59a586e74cb52490b
+modified: 1670682467440
 created: 1663764680887
-url: https://apitransport.vbup.it/api/v1/Generic/HelloWorld
-name: New Request
+url: "{{ _.baseUrl }}/api/v1/Auth/GetUserByToken"
+name: Get User by cookie Token
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1663764680887
+metaSortKey: -1670593833991
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

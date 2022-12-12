@@ -1,0 +1,31 @@
+_id: req_09ae8699efe6443bb3ccb59c20c53a4a
+type: Request
+parentId: fld_f69a236f7dfe472a80195417c3024ae0
+modified: 1670680543415
+created: 1670669935712
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceIban"
+name: Reset Resource Iban
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 7,
+    		"resourceHeaderId": 7,
+    		"iban": "IbanTest156814231548ddsdsds",
+    		"state": 1
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668387959.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

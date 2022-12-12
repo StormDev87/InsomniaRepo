@@ -1,0 +1,21 @@
+_id: req_f321fc79549542c99cfe489f0a8df583
+type: Request
+parentId: fld_6b110f8a6cd3477184204f6aefbf2da6
+modified: 1670683287931
+created: 1670681538262
+url: "{{ _.baseUrl }}/api/v1/Resource/DeleteResourceAddressType/1"
+name: Delete resource Address Type
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670681538262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

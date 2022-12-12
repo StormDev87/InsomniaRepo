@@ -1,0 +1,31 @@
+_id: req_42d00ce45a15419eb9716f29afc7741b
+type: Request
+parentId: fld_33a149f80f7d4028900ee4be8f571949
+modified: 1670669515861
+created: 1670668964657
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceCategory"
+name: Update Resource Category (Categoria1)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"name": "Categoria1Mod",
+    	"description": "Una categoriaMod",
+    	"note": "Non ricordo a cosa servano le categorie...."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668442622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_006ae7cf96f04f71a12185d2cff2d69b
+type: Request
+parentId: fld_3444189cb1c74f05b06b72c79644ecde
+modified: 1670684327880
+created: 1670668259901
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceType"
+name: Create Cliente/Fornitore
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": 2,
+      "name": "Cliente/Fornitore",
+      "description": "Cliente/Fornitore",
+      "note": "Cliente/Fornitore"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668089562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

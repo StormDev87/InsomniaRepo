@@ -1,9 +1,9 @@
 _id: req_a9819fea4a66454b9c2b819dda6342e3
 type: Request
 parentId: fld_134a806617b243d59a586e74cb52490b
-modified: 1660902643586
+modified: 1670682442438
 created: 1660735328534
-url: https://localhost:7261/api/v1/Auth/GetUserByName
+url: "{{ _.baseUrl }}/api/v1/Auth"
 name: Get User by Name
 description: ""
 method: GET

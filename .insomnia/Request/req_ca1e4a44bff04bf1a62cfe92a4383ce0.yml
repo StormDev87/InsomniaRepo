@@ -1,0 +1,25 @@
+_id: req_ca1e4a44bff04bf1a62cfe92a4383ce0
+type: Request
+parentId: fld_134a806617b243d59a586e74cb52490b
+modified: 1670682463490
+created: 1670593833941
+url: "{{ _.baseUrl }}/api/v1/Auth/DeleteUser"
+name: Delete User
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_ca0781ffe17943fc853449b48fea86d0
+    name: email
+    value: viscateo@gmail.com
+    description: ""
+authentication: {}
+metaSortKey: -1670593833941
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

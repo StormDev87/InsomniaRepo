@@ -1,0 +1,28 @@
+_id: req_236b040b7ce148dfaead786bacaccb9e
+type: Request
+parentId: fld_1741bd6bdc184d108b529dfa0c973f4f
+modified: 1670698842014
+created: 1670698328835
+url: "{{ _.baseUrl }}/api/v1/Resource/GetResourceContactById"
+name: Get Resource Contact BY Id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 2
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670678037845.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

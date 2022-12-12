@@ -1,0 +1,21 @@
+_id: req_406c29df49e543c6a0c5dcfcab258d11
+type: Request
+parentId: fld_40f064c9b7e044acba8bec461c84a053
+modified: 1670670345019
+created: 1670669935706
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceIbans"
+name: Get All Resource Iban
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670668333297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

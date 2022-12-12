@@ -1,0 +1,36 @@
+_id: req_6a3ea8e361734cac8a1e1635d193180a
+type: Request
+parentId: fld_12c0d49c20a1497981c50f9823d0eb81
+modified: 1670697778583
+created: 1670683539650
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceAddress"
+name: Reset Resource Address Type
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 12,
+      "resourceHeaderId": 2,
+      "resourceAddressTypeId": 2,
+      "city": "stridasdasdasng",
+      "address": "string",
+      "zip": "string",
+      "phone": "string",
+      "mail": "string",
+      "state": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670681166301
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

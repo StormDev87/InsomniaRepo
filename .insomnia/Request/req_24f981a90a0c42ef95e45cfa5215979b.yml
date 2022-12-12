@@ -1,0 +1,21 @@
+_id: req_24f981a90a0c42ef95e45cfa5215979b
+type: Request
+parentId: fld_d1fe1d2269294d8385a95b475284ec6e
+modified: 1670694024593
+created: 1670683539641
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceAddresss"
+name: Get all Resource Address
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670681091516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

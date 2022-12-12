@@ -1,0 +1,32 @@
+_id: req_3754fc0b93c9435380e15d35c95a30b4
+type: Request
+parentId: fld_d1fe1d2269294d8385a95b475284ec6e
+modified: 1670697195015
+created: 1670683539643
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceAddresssByType"
+name: Get Resource Address BY type
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 2,
+    		"name": "Lgdfsds",
+    		"descr": "Seddsdse Legale",
+    		"note": "",
+    		"state": 1
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670679346561.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,9 +1,9 @@
 _id: req_ca240f85bb7349f3b8239c4c130e4bf9
 type: Request
 parentId: fld_7b1c3795d2f44c8c89bcb4ab005db979
-modified: 1663778772544
+modified: 1670698061315
 created: 1663775829828
-url: http://localhost:7619/api/v1/Invoice/CreateTaxNumber
+url: "{{ _.baseUrl }}api/v1/Invoice/CreateTaxNumber"
 name: Create TaxNumber locale
 description: ""
 method: POST

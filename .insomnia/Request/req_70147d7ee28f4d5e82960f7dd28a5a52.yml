@@ -1,0 +1,32 @@
+_id: req_70147d7ee28f4d5e82960f7dd28a5a52
+type: Request
+parentId: fld_892faa017c1d40918fa449ab9b0b6e90
+modified: 1670668914358
+created: 1670668565309
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceType"
+name: Reset Resource type (Cliente)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 4,
+      "type": 0,
+      "name": "Cliente",
+      "description": "Cliente",
+      "note": "Cliente"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668387959.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,88 @@
+_id: req_958208eaad6f446da99683c30bdef46a
+type: Request
+parentId: fld_2e4c5274f9914a5091b4bb5b1b3c6cd6
+modified: 1670678032324
+created: 1670677601607
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResource"
+name: Update Resource Header
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 13,
+    	"resourceTypeId": 2,
+    	"resourceType": {
+    		"id": 2,
+    		"type": 1,
+    		"name": "Fornitore",
+    		"description": "Fornitore",
+    		"note": "Fornitore"
+    	},
+    	"resourceCategoryId": 1,
+    	"resourceCategories": {
+    		"id": 1,
+    		"name": "Categoria1",
+    		"description": "Una categoria",
+    		"note": "Non ricordo a cosa servano le categorie...."
+    	},
+    	"piva": "11118750014",
+    	"fiscalCode": "11118750014dd",
+    	"type": 1,
+    	"resourceInstances": [],
+    	"resourceIbans": [
+    		{
+    			"id": 18,
+    			"resourceHeaderId": 13,
+    			"iban": "IbanTest156814231548",
+    			"state": 1
+    		},
+    		{
+    			"id": 19,
+    			"resourceHeaderId": 13,
+    			"iban": "IbanTest156814231daaq",
+    			"state": 1
+    		}
+    	],
+    	"resourceAddresses": [
+    		{
+    			"id": 10,
+    			"resourceHeaderId": 13,
+    			"resourceAddressTypeId": 1,
+    			"city": "Trofarello",
+    			"address": "Via Sabbioni 24",
+    			"zip": "10028",
+    			"phone": "3938879457",
+    			"mail": "amministrazione@vbanet.eu",
+    			"state": 1
+    		}
+    	],
+    	"resourceContacts": [
+    		{
+    			"id": 9,
+    			"resourceHeaderId": 13,
+    			"name": "Matteo",
+    			"surname": "Visca",
+    			"mail": "m.visca@vbanet.eu",
+    			"phone": "3938879457",
+    			"state": 1
+    		}
+    	],
+    	"resourceDefaults": null,
+    	"invoiceHeaders": [],
+    	"vehicles": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670677601607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

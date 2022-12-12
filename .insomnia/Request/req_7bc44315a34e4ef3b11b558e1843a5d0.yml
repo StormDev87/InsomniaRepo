@@ -1,9 +1,9 @@
 _id: req_7bc44315a34e4ef3b11b558e1843a5d0
 type: Request
 parentId: fld_7b1c3795d2f44c8c89bcb4ab005db979
-modified: 1663316841246
+modified: 1670680731241
 created: 1663316828350
-url: https://localhost:7261/api/v1/Invoice/GetTaxNumberById/1
+url: "{{ _.baseUrl }}/api/v1/Invoice/GetTaxNumberById/1"
 name: Get TaxNumber By Id
 description: Possibilità di scegliere tipo di DTO in risposta con parametro in Header
 method: GET

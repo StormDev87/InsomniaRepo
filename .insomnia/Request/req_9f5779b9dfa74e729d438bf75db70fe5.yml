@@ -1,9 +1,9 @@
 _id: req_9f5779b9dfa74e729d438bf75db70fe5
 type: Request
 parentId: fld_114edcd861dd49098eefd83f90580960
-modified: 1663862063514
+modified: 1670592457893
 created: 1663071033507
-url: https://apitransport.vbup.it/api/v1/Invoice/listCEconomico
+url: "{{ _.baseUrl }}api/v1/Invoice/listCEconomico"
 name: Get List EcField
 description: ""
 method: GET

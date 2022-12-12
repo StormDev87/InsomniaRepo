@@ -1,9 +1,9 @@
 _id: req_b0038c8c50214069b39f348cbd3ea60d
 type: Request
 parentId: fld_134a806617b243d59a586e74cb52490b
-modified: 1662588352715
+modified: 1670682454656
 created: 1661503145240
-url: https://localhost:7261/api/v1/Auth/AddUserToRole
+url: "{{ _.baseUrl }}/api/v1/Auth/AddUserToRole"
 name: Associate user and Role
 description: ""
 method: POST
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-      "email": "ciccio2@ciccio.it",
-      "role": "Administrator"
+      "email": "viscateo@gmail.com",
+      "role": "User"
     }
 parameters: []
 headers:

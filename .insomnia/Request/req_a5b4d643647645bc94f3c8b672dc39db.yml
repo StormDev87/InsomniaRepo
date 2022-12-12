@@ -1,0 +1,32 @@
+_id: req_a5b4d643647645bc94f3c8b672dc39db
+type: Request
+parentId: fld_c2f033b5b1ba444884ef46a98ad7cfab
+modified: 1670683264117
+created: 1670681241086
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceAddressType"
+name: Update Resource Address Type
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"name": "Lg2323232",
+    	"descr": "Sede Legale",
+    	"note": "",
+    	"state": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670681241086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

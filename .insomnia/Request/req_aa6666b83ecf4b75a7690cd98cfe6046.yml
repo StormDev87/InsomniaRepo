@@ -1,0 +1,21 @@
+_id: req_aa6666b83ecf4b75a7690cd98cfe6046
+type: Request
+parentId: fld_1741bd6bdc184d108b529dfa0c973f4f
+modified: 1670698296028
+created: 1670698074300
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceContacts"
+name: Get all Resource Contacts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670681091516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

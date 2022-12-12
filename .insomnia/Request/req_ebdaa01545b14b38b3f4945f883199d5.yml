@@ -1,9 +1,9 @@
 _id: req_ebdaa01545b14b38b3f4945f883199d5
 type: Request
 parentId: fld_050e361efa644c409280d06fd431ef0e
-modified: 1669399895472
+modified: 1670687127115
 created: 1660592579051
-url: "{{ _.baseUrl }}api/v1/Auth/register"
+url: "{{ _.baseUrl }}/api/v1/Auth/register"
 name: Register
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-      "email": "viscateo3@gmail.com",
+      "email": "viscateo@gmail.com",
     	"username": "Matteo",
       "password": "Teo87!",
       "firstName": "Matteo",

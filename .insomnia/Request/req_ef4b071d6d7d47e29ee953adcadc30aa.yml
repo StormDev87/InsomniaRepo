@@ -1,0 +1,21 @@
+_id: req_ef4b071d6d7d47e29ee953adcadc30aa
+type: Request
+parentId: fld_97f4255890fc436e9f6c9a173b13148d
+modified: 1670681175793
+created: 1670681163030
+url: "{{ _.baseUrl }}/api/v1/Resource/GetResourceAddressTypeById/1"
+name: Get Resource Address type by Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670679346561.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

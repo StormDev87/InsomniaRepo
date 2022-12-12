@@ -1,0 +1,32 @@
+_id: req_f1ef860d8f114839be7153551cd337fe
+type: Request
+parentId: fld_892faa017c1d40918fa449ab9b0b6e90
+modified: 1670668926036
+created: 1670668442622
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceType"
+name: Update Resource type (Cliente)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 4,
+      "type": 0,
+      "name": "Cliente1",
+      "description": "Cliente1",
+      "note": "Cliente1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668442622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

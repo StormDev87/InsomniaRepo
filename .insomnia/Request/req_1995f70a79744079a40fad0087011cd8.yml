@@ -1,0 +1,28 @@
+_id: req_1995f70a79744079a40fad0087011cd8
+type: Request
+parentId: fld_d1fe1d2269294d8385a95b475284ec6e
+modified: 1670696631070
+created: 1670687342590
+url: "{{ _.baseUrl }}/api/v1/Resource/GetAllResourceAddressByHeader"
+name: Get Resource Address BY Header
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 2
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670678474084.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

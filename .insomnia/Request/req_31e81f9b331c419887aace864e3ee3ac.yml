@@ -1,0 +1,32 @@
+_id: req_31e81f9b331c419887aace864e3ee3ac
+type: Request
+parentId: fld_c2f033b5b1ba444884ef46a98ad7cfab
+modified: 1670683270001
+created: 1670681330415
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceAddressType"
+name: Reset Resource Address Type
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"name": "Lg",
+    	"descr": "Sede Legale",
+    	"note": "",
+    	"state": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670681166301
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

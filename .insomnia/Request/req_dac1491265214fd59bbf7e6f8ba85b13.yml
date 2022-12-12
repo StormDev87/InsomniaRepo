@@ -1,9 +1,9 @@
 _id: req_dac1491265214fd59bbf7e6f8ba85b13
 type: Request
 parentId: fld_251167d078ac40b1bca96884428307b1
-modified: 1663850162745
+modified: 1670592545469
 created: 1663314391954
-url: https://apitransport.vbup.it/api/v1/Invoice/listPayTypes
+url: " {{ _.baseUrl }}api/v1/Invoice/listPayTypes"
 name: Get All TypePays
 description: Possibilità di scegliere tipo di DTO in risposta con parametro in Header
 method: GET

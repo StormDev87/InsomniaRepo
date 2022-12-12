@@ -1,0 +1,21 @@
+_id: req_0429e8b3cc844dac84fddcb54fbbb2d1
+type: Request
+parentId: fld_050e361efa644c409280d06fd431ef0e
+modified: 1670682436549
+created: 1670597959766
+url: "{{ _.baseUrl }}/api/v1/Auth/logout"
+name: Logout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660659646511.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,9 +1,9 @@
 _id: req_86f556d583694962a74669f89d88c035
 type: Request
 parentId: fld_251167d078ac40b1bca96884428307b1
-modified: 1663850194157
+modified: 1670592528479
 created: 1663315669403
-url: https://apitransport.vbup.it/api/v1/Invoice/UpdatePayType/1
+url: "{{ _.baseUrl }}api/v1/Invoice/UpdatePayType/1"
 name: Update PayType
 description: ""
 method: PUT

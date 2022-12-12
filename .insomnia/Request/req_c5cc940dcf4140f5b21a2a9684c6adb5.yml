@@ -1,0 +1,36 @@
+_id: req_c5cc940dcf4140f5b21a2a9684c6adb5
+type: Request
+parentId: fld_12c0d49c20a1497981c50f9823d0eb81
+modified: 1670697848421
+created: 1670683539648
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceAddress"
+name: Update Resource Address Type
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 12,
+      "resourceHeaderId": 2,
+      "resourceAddressTypeId": 2,
+      "city": "string",
+      "address": "string",
+      "zip": "string",
+      "phone": "string",
+      "mail": "string",
+      "state": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670681241086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

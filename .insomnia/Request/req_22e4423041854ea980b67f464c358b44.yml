@@ -1,0 +1,35 @@
+_id: req_22e4423041854ea980b67f464c358b44
+type: Request
+parentId: fld_cb0dadf02fa64eca9292869d0849391c
+modified: 1670687025730
+created: 1670677093893
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceHeader"
+name: Create ResourceHeader (Minimal)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "id": 0,
+    "resourceTypeId": 2,
+    "resourceCategoryId": 1,
+    "resourceDefaultId": null,
+    "piva": "11118750014",
+    "fiscalCode": "11118750014",
+    "type": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a322ae930e9b49cb8da1cca90dc34504
+authentication: {}
+metaSortKey: -1660483306538.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: false
+settingFollowRedirects: global

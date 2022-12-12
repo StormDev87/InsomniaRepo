@@ -1,11 +1,11 @@
 _id: env_10a4d192052848feb04e12d9b45cabff
 type: Environment
 parentId: env_628592afa30e5e1d9f823b0010ec6f58cc19057e
-modified: 1669132706813
+modified: 1670668068729
 created: 1664794059184
 name: Local
 data:
-  baseUrl: https://localhost:7261/
+  baseUrl: https://localhost:7261
 dataPropertyOrder:
   "&":
     - baseUrl

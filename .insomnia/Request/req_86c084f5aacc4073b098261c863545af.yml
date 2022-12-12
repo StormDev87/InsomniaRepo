@@ -1,0 +1,30 @@
+_id: req_86c084f5aacc4073b098261c863545af
+type: Request
+parentId: fld_dd8e9ca2f58b4bac9ea4343d249041de
+modified: 1670683168319
+created: 1670669935701
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceIban"
+name: Create Iban Stato Attivo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "resourceHeaderId": 10,
+      "iban": "IT 99 C 12345 67890 123456789012",
+      "state": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668089562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

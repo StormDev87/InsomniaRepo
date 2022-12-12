@@ -1,0 +1,21 @@
+_id: req_679374953a3e46cd85523c483ef12a03
+type: Request
+parentId: fld_ecfcf4a0b1ae43f4b7470a59b2d54842
+modified: 1670677984186
+created: 1670677218952
+url: "{{ _.baseUrl }}/api/v1/Resource/GetResourceHeaderById/13"
+name: Get Resource Header by Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660501341539.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

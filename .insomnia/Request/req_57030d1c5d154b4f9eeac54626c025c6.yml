@@ -1,0 +1,21 @@
+_id: req_57030d1c5d154b4f9eeac54626c025c6
+type: Request
+parentId: fld_d408aa02899f42d1bcd9d8cb34f8ae8e
+modified: 1670668873970
+created: 1670668833493
+url: "{{ _.baseUrl }}/api/v1/Resource/DeleteResourceType/1"
+name: New Request
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670668833493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

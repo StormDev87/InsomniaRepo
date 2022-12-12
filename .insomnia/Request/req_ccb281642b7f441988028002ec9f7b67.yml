@@ -1,0 +1,31 @@
+_id: req_ccb281642b7f441988028002ec9f7b67
+type: Request
+parentId: fld_3444189cb1c74f05b06b72c79644ecde
+modified: 1670684328909
+created: 1670668233330
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceType"
+name: Create Fornitore
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": 1,
+      "name": "Fornitore",
+      "description": "Fornitore",
+      "note": "Fornitore"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668089512
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

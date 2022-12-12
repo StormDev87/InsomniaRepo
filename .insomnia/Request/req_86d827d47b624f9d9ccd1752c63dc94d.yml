@@ -1,0 +1,31 @@
+_id: req_86d827d47b624f9d9ccd1752c63dc94d
+type: Request
+parentId: fld_f69a236f7dfe472a80195417c3024ae0
+modified: 1670680526733
+created: 1670669935711
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceIban"
+name: Update Resource Iban
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 7,
+    		"resourceHeaderId": 7,
+    		"iban": "IbanTest156814231548",
+    		"state": 1
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668442622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_b5f9a2d6a773418b90787e2c992729c6
+type: Request
+parentId: fld_45044e0ae7f544be8113a0cf4fc222df
+modified: 1670682473461
+created: 1670599034372
+url: "{{ _.baseUrl }}/api/v1/Auth/GetAllRoles"
+name: Get All Roles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670599034372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

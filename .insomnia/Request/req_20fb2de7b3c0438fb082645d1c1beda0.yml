@@ -1,10 +1,10 @@
 _id: req_20fb2de7b3c0438fb082645d1c1beda0
 type: Request
-parentId: fld_c9ca0ff7e74a4fd7888c8025f6104140
-modified: 1669309572748
+parentId: fld_cb0dadf02fa64eca9292869d0849391c
+modified: 1670687030963
 created: 1660492640805
-url: "{{ _.baseUrl }}api/v1/Resource/CreateComplete"
-name: Create ResourceHeader Id
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceHeader"
+name: Create ResourceHeader (Complete)
 description: ""
 method: POST
 body:
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     "id": 0,
-    "resourceTypeId": 6,
+    "resourceTypeId": 62,
     "resourceCategoryId": 1,
     "resourceDefaultId": null,
     "piva": "11118750014",
@@ -24,16 +24,6 @@ body:
         "state": 1
       }
     ],
-    "resourceIbans": [
-      {
-        "iban": "IbanTest156814231548",
-        "state": 1
-      },
-      {
-        "iban": "IbanTest156814231daaq",
-        "state": 1
-      }
-    ],
     "resourceAddresses": [
       {
         "resourceAddressTypeId": 1,
@@ -42,6 +32,16 @@ body:
         "zip": "10028",
         "phone": "3938879457",
         "mail": "amministrazione@vbanet.eu",
+        "state": 1
+      }
+    ],
+    "resourceIbans": [
+      {
+        "iban": "IbanTest156814231548",
+        "state": 1
+      },
+      {
+        "iban": "IbanTest156814231daaq",
         "state": 1
       }
     ],

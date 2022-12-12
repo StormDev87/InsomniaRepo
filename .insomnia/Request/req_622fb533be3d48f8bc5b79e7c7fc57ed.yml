@@ -1,0 +1,31 @@
+_id: req_622fb533be3d48f8bc5b79e7c7fc57ed
+type: Request
+parentId: fld_33a149f80f7d4028900ee4be8f571949
+modified: 1670669522733
+created: 1670668964662
+url: "{{ _.baseUrl }}/api/v1/Resource/UpdateResourceCategory"
+name: Reset Resource Category (Categoria1)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"name": "Categoria1",
+    	"description": "Una categoria",
+    	"note": "Non ricordo a cosa servano le categorie...."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670668387959.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

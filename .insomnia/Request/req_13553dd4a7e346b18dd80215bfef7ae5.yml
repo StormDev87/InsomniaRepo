@@ -1,0 +1,21 @@
+_id: req_13553dd4a7e346b18dd80215bfef7ae5
+type: Request
+parentId: fld_45044e0ae7f544be8113a0cf4fc222df
+modified: 1670682477503
+created: 1670599743325
+url: "{{ _.baseUrl }}/api/v1/Auth/DeleteRole?role=User"
+name: Delete Role
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670598993945.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

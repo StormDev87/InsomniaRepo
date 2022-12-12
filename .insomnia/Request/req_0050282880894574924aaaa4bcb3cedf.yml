@@ -1,0 +1,21 @@
+_id: req_0050282880894574924aaaa4bcb3cedf
+type: Request
+parentId: fld_45044e0ae7f544be8113a0cf4fc222df
+modified: 1670682488162
+created: 1670598872666
+url: "{{ _.baseUrl }}/api/v1/Auth/CreateRole?name=User"
+name: Create Role
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670598872666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

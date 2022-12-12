@@ -1,0 +1,36 @@
+_id: req_9c2f3d61b0af41b7b9292dc5db5a0b93
+type: Request
+parentId: fld_90a36ffc30d345b98036bab414b4857d
+modified: 1670697945934
+created: 1670683539637
+url: "{{ _.baseUrl }}/api/v1/Resource/CreateResourceAddress"
+name: Create ResourceAddress
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "resourceHeaderId": 2,
+      "resourceAddressTypeId": 2,
+      "city": "string",
+      "address": "string",
+      "zip": "string",
+      "phone": "string",
+      "mail": "string",
+      "state": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664809509716
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

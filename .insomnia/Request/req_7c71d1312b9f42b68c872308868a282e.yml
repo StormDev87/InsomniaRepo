@@ -1,9 +1,9 @@
 _id: req_7c71d1312b9f42b68c872308868a282e
 type: Request
 parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1664793801501
+modified: 1670592481568
 created: 1663405321823
-url: https://apitransport.vbup.it/api/v1/Invoice/CreateInvoice
+url: "{{ _.baseUrl }}api/v1/Invoice/CreateInvoice"
 name: Create Invoice 2
 description: ""
 method: POST

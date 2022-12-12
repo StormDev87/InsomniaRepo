@@ -1,0 +1,21 @@
+_id: req_fd38f22e4c7d4c07bc3e71a50d04aecd
+type: Request
+parentId: fld_45044e0ae7f544be8113a0cf4fc222df
+modified: 1670682482965
+created: 1670599163285
+url: "{{ _.baseUrl }}/api/v1/Auth/GetUserRoles?email=viscateo@gmail.com"
+name: Get User's roles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670598953519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

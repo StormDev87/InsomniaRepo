@@ -1,9 +1,9 @@
 _id: req_dbba38c53a8944acb139e677c0a40475
 type: Request
 parentId: fld_114edcd861dd49098eefd83f90580960
-modified: 1663851783323
+modified: 1670592471965
 created: 1663070814909
-url: https://apitransport.vbup.it/api/v1/Invoice/CreateEconomyField
+url: "{{ _.baseUrl }}api/v1/Invoice/CreateEconomyField"
 name: Create EcField
 description: ""
 method: POST

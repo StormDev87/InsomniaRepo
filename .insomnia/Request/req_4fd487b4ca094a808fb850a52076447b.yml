@@ -1,9 +1,9 @@
 _id: req_4fd487b4ca094a808fb850a52076447b
 type: Request
 parentId: fld_34e6d6664fb04646b538c29e661b5cf4
-modified: 1663850214381
+modified: 1670592476662
 created: 1660584088200
-url: https://apitransport.vbup.it/api/v1/Invoice/UpdateInvoice/3
+url: "{{ _.baseUrl }}api/v1/Invoice/UpdateInvoice/3"
 name: Update Invoice
 description: ""
 method: PUT

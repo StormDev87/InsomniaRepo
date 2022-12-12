@@ -1,9 +1,9 @@
 _id: req_6d62aca9db584590add91c74d8447d91
 type: Request
 parentId: fld_251167d078ac40b1bca96884428307b1
-modified: 1663850190038
+modified: 1670592536979
 created: 1663315991233
-url: https://apitransport.vbup.it/api/v1/Invoice/CreatePayType
+url: "{{ _.baseUrl }}api/v1/Invoice/CreatePayType"
 name: Create PayType
 description: ""
 method: POST

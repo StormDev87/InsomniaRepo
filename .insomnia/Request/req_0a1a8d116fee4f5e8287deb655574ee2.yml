@@ -1,0 +1,21 @@
+_id: req_0a1a8d116fee4f5e8287deb655574ee2
+type: Request
+parentId: fld_76da383a70fb4423b3a32d1c062da202
+modified: 1670680580284
+created: 1670669935715
+url: "{{ _.baseUrl }}/api/v1/Resource/DeleteResourceIban/8"
+name: Delete Resource Iban
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670668833493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
